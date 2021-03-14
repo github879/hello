@@ -1,0 +1,168 @@
+.menu {
+    background-color: #45015d;
+    color: ivory;
+    width: 150px;
+    border-radius: 10px;
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    height: 100%;
+    padding: 10px 20px;
+}
+.menu a {
+    color: ivory;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s;
+}
+.menu a:hover {
+    background-color: ivory;
+    color: black;
+    border-radius: 10px;
+}
+.main {
+    margin: 80px 40px 0 360px;
+}
+h1 {
+    font-size: 64px;
+}
+h2 {
+    color: #45015d;
+    font-size: 50px;
+}
+h3 {
+    font-size: 24px;
+}
+hr {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #45015d;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.image img {
+    width: 45%;
+    border-radius: 19px;
+    margin: 7px;
+    opacity: 0.7;
+    transition: 1s;
+}
+.image img:hover {
+    opacity: 1;
+}
+span {
+    font-weight: bold;
+}
+.member {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+.member img {
+    border-radius: 10px;
+    width: 100%;
+    filter: grayscale(30%);
+}
+.description {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+}
+.tariff {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+}
+.basic {
+    background-color: #45015d;
+    color: ivory;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 29px;
+}
+.tariff ol {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.pro-button {
+    border-radius: 10px;
+    background-color: #ad0202;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.pro-button:hover{
+    background-color: crimson;
+    transition: 1s;
+}
+.basic-button {
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+.basic-button:hover {
+    background-color: rgb(185, 185, 185);
+    transition: 1s;
+}
+.tariff li {
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(117, 117, 117);
+    border-bottom-style: solid;
+    font-size: 22px;
+    padding: 10px 0;
+}
+.tariff .pro {
+    background-color: #7e0303;
+    color: ivory;
+    border-radius: 10px;
+    padding: 32px 0;
+    font-size: 36px;
+}
+.tariff .basic {
+    background-color: #45015d;
+    color: ivory;
+    border-radius: 10px;
+    padding: 32px 0;
+    font-size: 36px;
+}
+.contact button {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: ivory;
+    background-color: #45015d;
+    padding: 12px 24px;
+    width: 51%;
+}
+.contact button:hover {
+    transition: 1s;
+    background-color: #8833a7;
+}
+.contact input {
+    display: block;
+    padding: 8px;
+    margin: 8px 0;
+    width: 50%;
+}
+.footer {
+    background-color: grey;
+    padding: 3%;
+    text-align: right;
+    color: ivory;
+    margin: 10px;
+}
+.footer a {
+    color: ivory;
+}
